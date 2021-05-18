@@ -14,11 +14,11 @@ name: Build OpenWrt R619AC
 
 on:
   repository_dispatch:
-#  release:
-#    types: published
-#  push:
-#    branches:
-#      - master
+    release:
+      types: published
+    push:
+      branches:
+        - master
 #    paths:
 #      - 'r619ac.config'
   schedule:
